@@ -29,6 +29,10 @@ body {
   text-align: center;
 }
 
+.gallery.grid-3-columns {
+  grid-gap: 20px;
+  margin: 50px 0;
+}
 .embed {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -78,7 +82,7 @@ section.secondary {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/lisbon.png");
+    url("../images/seoul.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -174,7 +178,7 @@ footer {
       rgba(39, 32, 68, 0.9),
       rgba(39, 32, 68, 0.9)
     ),
-    url("../images/lisbon-footer.png");
+    url("../images/seoul-footer.webp");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
